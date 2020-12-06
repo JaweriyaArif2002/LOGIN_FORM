@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>option/formsAddition</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+	<script>
+		// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		var firebaseConfig = {
+		  apiKey: "AIzaSyCXweCrC8ORnV8i7yIbYRPnh_qD8uhGSl4",
+		  authDomain: "web-and-mobile-e4414.firebaseapp.com",
+		  databaseURL: "https://web-and-mobile-e4414.firebaseio.com",
+		  projectId: "web-and-mobile-e4414",
+		  storageBucket: "web-and-mobile-e4414.appspot.com",
+		  messagingSenderId: "113530623711",
+		  appId: "1:113530623711:web:c842e4d22949f7a52a7b6a",
+		  measurementId: "G-M1VTN3DBZK"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		// firebase.analytics();
+	  </script>
+</head>
+<body id="background">
+    <div class="container">
+		<table class="form">
+		
+				<tr>
+					<th>OPTION NUMBER</th>
+					<td><input type="number" id="oNumber"></td>
+				</tr>
+				<tr>
+					<th>OPTION NAME</th>
+					<td><input type="text"  id="oName"></td>
+                </tr>
+                <tr>
+					<th>OPTION PATH</th>
+					<td><input type="text"  id="oPath"></td>
+				</tr>
+				
+				<tr id="btn" align="center">
+					<td colspan="2"><input type="button" name="button" id="btn" value="SUBMIT" onclick="AddRow()"></td>
+				</tr>
+		
+        </table>
+<br><br><br>
+        <table border="4" id="show">
+			<thead>
+				<tr>
+					<th>OPTION NUMBER</th>
+					<th>OPTION NAME</th>
+                    <th>OPTION PATH</th>
+                    
+                    
+                    
+					
+				</tr>
+			</thead>
+		</table>
+	</div>
+   <script src="app.js"></script>
+
+</body>
+</html>

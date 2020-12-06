@@ -1,0 +1,47 @@
+#background {
+    background: #ccff99
+    ;
+}
+.container{overflow: hidden}
+.form{
+    background-color: rgb(20, 19, 17);
+    height: 400px;
+    width: 500px;
+    color: #ffcc99;
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    margin: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+}
+#btn{
+   width: 100%;
+  color: black;
+  /* background-color: skyblue;  */
+  border: 2px solid skyblue;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+#show{
+    
+    color: white;
+    font-family: fantasy;
+    /* background-color: black; */
+    margin-top: 30px;
+   
+    background-color: rgb(20, 19, 17);
+ 
+ padding: 20px 20px 20px 20px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ /* width: 500px */
+  
+  
+}
+.btn {
+    background-color: blueviolet;
+}
